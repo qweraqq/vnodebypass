@@ -167,6 +167,8 @@
 	<string>/var/mobile/Library/Caches/com.opa334.Dopamine</string>
 	<string>/var/mobile/Library/SplashBoard/Snapshots/org.coolstar.SileoStore</string>
 	<string>/var/mobile/Library/HTTPStorages/com.opa334.Dopamine</string>
-	<string>/var/mobile/Library/HTTPStorages/com.coolstar.SileoStore</string>
+	<string>/var/mobile/Library/HTTPStorages/org.coolstar.SileoStore</string>
+	<string>/var/jb/basebin/.fakelib/libobjc-trampolines.dylib</string>
+	<string>/var/jb/basebin/systemhook.dylib</string>
 </array>
 </plist>
