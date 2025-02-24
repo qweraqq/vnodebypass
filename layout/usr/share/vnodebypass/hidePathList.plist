@@ -162,5 +162,11 @@
 	<string>/var/tmp/cydia.log</string>
 	<string>/var/tmp/slide.txt</string>
 	<string>/var/tmp/vnodeMem.txt</string>
+	<!-- 20250224 update -->
+	<string>/var/mobile/Library/Saved Application State/org.coolstar.SileoStore.savedState</string>
+	<string>/var/mobile/Library/Caches/com.opa334.Dopamine</string>
+	<string>/var/mobile/Library/SplashBoard/Snapshots/org.coolstar.SileoStore</string>
+	<string>/var/mobile/Library/HTTPStorages/com.opa334.Dopamine</string>
+	<string>/var/mobile/Library/HTTPStorages/com.coolstar.SileoStore</string>
 </array>
 </plist>
