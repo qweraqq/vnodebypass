@@ -4,17 +4,6 @@
 #include <inttypes.h>
 #include <mach-o/loader.h>
 
-uint32_t off_p_pid;
-uint32_t off_p_pfd;
-uint32_t off_fd_ofiles;
-uint32_t off_fp_fglob;
-uint32_t off_fg_data;
-uint32_t off_vnode_iocount;
-uint32_t off_vnode_usecount;
-uint32_t off_vnode_vflags;
-
-uint64_t ourproc;
-
 int offset_init();
 
 uint64_t proc_find(pid_t pidToFind);

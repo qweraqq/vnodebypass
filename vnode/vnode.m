@@ -3,6 +3,20 @@
 #include "kernel.h"
 #import <spawn.h>
 
+extern uint32_t off_p_pid;
+extern uint32_t off_p_pfd;
+extern uint32_t off_fd_ofiles;
+extern uint32_t off_fp_fglob;
+extern uint32_t off_fg_data;
+extern uint32_t off_vnode_iocount;
+extern uint32_t off_vnode_usecount;
+extern uint32_t off_vnode_vflags;
+
+extern uint64_t ourproc;
+
+const char *vnodeMemPath;
+NSArray *hidePathList;
+
 __attribute__((constructor)) void initVnodeMemPath() {
   vnodeMemPath =
       [NSString stringWithFormat:@"/tmp/%@.txt", NSProcessInfo.processInfo.processName].UTF8String;
