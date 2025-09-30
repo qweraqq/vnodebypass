@@ -170,5 +170,13 @@
 	<string>/var/mobile/Library/HTTPStorages/org.coolstar.SileoStore</string>
 	<string>/var/jb/basebin/.fakelib/libobjc-trampolines.dylib</string>
 	<string>/var/jb/basebin/systemhook.dylib</string>
+	<!-- 20250930 update -->
+	<string>/var/mobile/Library/Cookies/org.coolstar.SileoStore.binarycookies</string>
+	<string>/var/root/Library/HTTPStorages/shshd</string>
+	<string>/var/mobile/Library/SplashBoard/Snapshots/xyz.willy.Zebra</string>
+	<string>/var/mobile/Library/SplashBoard/Snapshots/com.lavochka.root</string>
+	<string>/var/mobile/Library/Caches/org.coolstar.SileoStore</string>
+	<string>/var/mobile/Library/Saved Application State/com.lavochka.root.savedState</string>
+	<string>/var/mobile/Library/Preferences/org.coolstar.SileoStore</string>
 </array>
 </plist>
